@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Syne:wght@500;600&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Syne';
+}
+
+body{
+    width: 100%;
+    
+}
+
+h1{
+    position: relative;
+    float: right;
+    text-align: right;
+    margin-top: 2%;
+    font-size: 60px;
+    font-weight: 600;
+    color: #000;
+}
+
+h3{
+    clear: right;
+    float: right;
+    text-align: right;
+    font-weight: 400;
+    color: #545454 (neutral-black);
+}
+
+h1, h3{
+    margin-right: 10%;
+}
+
+span{
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 10%;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 150%;
+}
+
+#artworks-container {
+    width: 100%;
+    margin-top: 5%;
+    display: inline-block;
+    margin-left: 7%;
+}
+
+.artwork-container {
+    display: inline-block;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.artwork-container img {
+    width: 300px;
+    height: 300px;
+}
+
+  
+.artwork-container h2 {
+    font-size: 18px;
+    margin: 5px 0;
+    font-weight: 600;
+    color: #000;
+}
+  
+.artwork-container p {
+    font-size: 14px;
+    margin: 0;
+    color: #545454;
+}
+
+.paragraph p{
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 3%;
+    font-size: 20px;
+    color: #545454;
+}
+
+#last-artwork-container{
+    display: flex; 
+    justify-content: center;
+    align-items: center; 
+    margin-top: 2%;
+}
+
+.last-artwork-container h2 {
+    font-size: 18px;
+    margin: 5px 0;
+    font-weight: 600;
+    color: #000;
+}
+  
+.last-artwork-container p {
+    font-size: 14px;
+    margin: 0;
+    color: #545454;
+}
+
+#last-artwork-container img{
+    width: 800px;
+    height: 500px;
+
+}
+
+footer{
+    width: 100%;
+    margin-top: 4%;
+}
+
+hr{
+    width: 80%;
+    margin: 0 auto;
+    border-width: 2px;
+    border-color: rgb(0, 0, 0);
+}
+
+footer h2{
+    margin-top: 3%;
+    margin-left: 10%;
+    color: #000;
+    font-size:  25px;
+    font-weight: bold;
+}
+
+#Address{
+    margin-top: 3%;
+    margin-left: 10%;
+    display: inline-block;
+}
+
+#Contact{
+    margin-top: 3%;
+    float: right;
+    margin-right: 10%;
+    text-align: right;
+}
+
+#Copyright{
+    margin-left: 10%;
+}
